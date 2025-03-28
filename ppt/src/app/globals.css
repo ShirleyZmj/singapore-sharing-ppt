@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+}
+
+.reveal .slides section {
+  background-image: url('/images/bg-icon.png');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 150px;
+}
+
+.slide-title {
+  @apply text-3xl font-bold mb-6 text-blue-700;
+}
+
+.slide-subtitle {
+  @apply text-xl font-medium mb-4 text-blue-600;
+}
+
+.slide-content {
+  @apply text-lg mb-2;
+}
+
+.slide-list {
+  @apply list-disc list-inside space-y-2;
+}

@@ -1,0 +1,4 @@
+/* 这个文件用于修复 Recharts 的 class 警告 */
+[class] {
+  /* 空规则，只是为了让 React 不警告 class 属性 */
+}
