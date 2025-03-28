@@ -3,39 +3,29 @@ import Slide from "../Slide";
 export default function QASlide() {
   return (
     <Slide id="qa" title="Q&A">
-      <div className="grid grid-cols-2 gap-6 w-full">
-        <div>
-          <h2 className="slide-subtitle">移民相关</h2>
-          <ul className="slide-list">
-            <li>移民政策与途径</li>
-            <li>移民后的福利</li>
-            <li>移民时间线</li>
-          </ul>
-
-          <h2 className="slide-subtitle mt-4">工作相关</h2>
-          <ul className="slide-list">
-            <li>IT行业就业机会</li>
-            <li>技术能力要求</li>
-            <li>薪资与花销比例</li>
-          </ul>
-        </div>
-
-        <div>
-          <h2 className="slide-subtitle">生活相关</h2>
-          <ul className="slide-list">
-            <li>气候适应性</li>
-            <li>华人生活体验</li>
-            <li>幸福度评价</li>
-          </ul>
-
-          <h2 className="slide-subtitle mt-4">其他问题</h2>
-          <ul className="slide-list">
-            <li>人文环境</li>
-            <li>社会价值观</li>
-            <li>旅游推荐</li>
-          </ul>
-        </div>
-      </div>
+      <ol className="slide-list text-2xl list-disc ml-5 space-y-2">
+        <li>移民途径和移民后benefits</li>
+        <li>
+          好移民吗？（移民政策）。IT好找工作吗？（当地招聘的一些条件和门槛）
+        </li>
+        <li>天气，适合居住吗</li>
+        <li>原住民对中国人友好吗</li>
+        <li>国人在那边生活的感受</li>
+        <li>新加坡生活幸福度，新加坡互联网行业是否有年龄危机</li>
+        <li>当地IT行业发展如何，工签的要求，对Coursera 证书的认可度？</li>
+        <li>旅游的话有什么推荐的地方吗，以及那边旅游的安全情况</li>
+        <li>具体实习申请</li>
+        <li>工作和生活常态</li>
+        <li>工作感受：程序员普遍薪资水平、与花销的比例。</li>
+        <li>
+          还想了解人文环境，比如社会推崇的价值观之类的，哪些行为会受到谴责。以及性别平等方面。
+        </li>
+        <li>有什么中国人友好的计算机行业机会吗</li>
+        <li>
+          新加坡当前互联网行业就业情况，需要哪些就业人才，本科生如何跨国就业
+        </li>
+        <li>移民到新加坡，哪些是必备的，需要多长时间</li>
+      </ol>
     </Slide>
   );
 }

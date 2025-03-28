@@ -32,7 +32,7 @@ export default function SurveyResultsTopicsSlide() {
   ].sort((a, b) => b.value - a.value);
 
   return (
-    <Slide id="survey-results-topics" title="调查结果 - 主题">
+    <Slide id="survey-results-topics" title="问卷结果-41位姐妹-话题偏好">
       <div className="w-full h-[500px]">
         <ResponsiveContainer width="100%" height="100%">
           <BarChart

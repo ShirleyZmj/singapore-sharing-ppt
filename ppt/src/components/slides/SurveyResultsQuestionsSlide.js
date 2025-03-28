@@ -4,7 +4,7 @@ import SlideContent from "../SlideContent";
 
 export default function SurveyResultsQuestionsSlide() {
   return (
-    <Slide id="survey-results-questions" title="问卷收集内容">
+    <Slide id="survey-results-questions" title="问卷结果-41位姐妹-问题收集">
       <ol className="slide-list text-2xl list-disc ml-5 space-y-2">
         <li>移民途径和移民后benefits</li>
         <li>
