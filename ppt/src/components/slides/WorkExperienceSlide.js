@@ -16,12 +16,19 @@ export default function WorkExperienceSlide() {
           非常寒冷，必须穿外套
         </InfoModule>
 
+        <InfoModule title="办公软件" size="lg">
+          <ul>
+            <li>沟通软件: teams、slack、lark/企业微信(中企背景)</li>
+            <li>会议软件: teams、zoom、google meeting</li>
+          </ul>
+        </InfoModule>
+
         <InfoModule title="个人发展" size="lg">
           部分公司提供学习补贴（读研/考证）
         </InfoModule>
 
         <InfoModule title="上下班" size="lg">
-          官方9点到6点，没有打卡，准时下班
+          9:00-18:00，10:00-19:00，没有午休，大多数人准时下班
         </InfoModule>
 
         <InfoModule title="居家办公" size="lg">
@@ -29,7 +36,7 @@ export default function WorkExperienceSlide() {
         </InfoModule>
 
         <InfoModule title="年假" size="lg">
-          基本2周起，每工作一年多给一天
+          office工作最低14天，每工作一年多给一天
         </InfoModule>
 
         <InfoModule title="病假" size="lg">
