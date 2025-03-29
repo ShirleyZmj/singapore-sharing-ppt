@@ -21,6 +21,7 @@ import {
   LawSlide,
   QASlide,
   HousingRentalSlide,
+  SingaporeCelebritiesSlide,
 } from "../components/slides";
 
 export default function Home() {
@@ -45,6 +46,7 @@ export default function Home() {
   return (
     <div className="reveal">
       <div className="slides">
+        <SingaporeCelebritiesSlide />
         <TitleSlide />
         <SurveyResultsTopicsSlide />
         <SurveyResultsQuestionsSlide />
