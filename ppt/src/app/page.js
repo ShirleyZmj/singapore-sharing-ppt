@@ -20,6 +20,7 @@ import {
   TransportationSlide,
   LawSlide,
   QASlide,
+  HousingRentalSlide,
 } from "../components/slides";
 
 export default function Home() {
@@ -51,6 +52,7 @@ export default function Home() {
         <IntroductionSlide />
         <SingaporeOverviewSlide />
         <StudyAbroadSlide />
+        <HousingRentalSlide />
         <IdentityStatusSlide />
         <InternshipSlide />
         <WorkExperienceSlide />

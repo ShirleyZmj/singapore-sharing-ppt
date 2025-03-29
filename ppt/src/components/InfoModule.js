@@ -8,11 +8,11 @@ const InfoModule = ({ title, children, className = "", size = "md" }) => {
     xl: "text-2xl",
   };
 
-  const textSizeClass = textSizeClasses[size] || textSizeClasses.md;
+  const textSizeClass = textSizeClasses[size] || textSizeClasses.lg;
 
   return (
     <div
-      className={`bg-gray-50/50 p-6 rounded-lg shadow-sm backdrop-blur-sm ${className}`}
+      className={` bg-gray-50/50 p-6 rounded-lg shadow-sm backdrop-blur-sm ${className}`}
     >
       {title && (
         <h2 className="slide-subtitle mb-4" style={{ fontSize: "30px" }}>

@@ -5,7 +5,7 @@ export default function HousingSlide() {
   return (
     <Slide id="housing" title="住房">
       <div className="space-y-6">
-        <InfoModule title="新加坡住房类别">
+        <InfoModule title="新加坡住房类别" size="lg">
           <p>
             新加坡的住房大致分为{" "}
             <strong>
@@ -15,11 +15,15 @@ export default function HousingSlide() {
           </p>
         </InfoModule>
 
-        <InfoModule title="政府组屋（HDB）">
+        <InfoModule title="政府组屋（HDB）" size="lg">
           <p>
             <strong>特点</strong>：
           </p>
           <ul>
+            <li>
+              HDB提供远低于市场价格的组屋。 HDB全称为Housingand Development
+              Board，中文称建屋发展局，是新加坡国家发展部下的法定机构，成立于1960年，作为政府职能机构负责新加坡居住新镇的规划、建设和管理。
+            </li>
             <li>✅ 由政府建造，价格最实惠</li>
             <li>✅ 主要面向新加坡公民和永久居民（PR）</li>
             <li>
@@ -105,7 +109,7 @@ export default function HousingSlide() {
           </ul>
         </InfoModule>
 
-        <InfoModule title="执行共管公寓（Executive Condominium, EC）">
+        <InfoModule title="执行共管公寓（Executive Condominium, EC）" size="lg">
           <p>
             <strong>特点</strong>：
           </p>
@@ -154,7 +158,7 @@ export default function HousingSlide() {
           </ul>
         </InfoModule>
 
-        <InfoModule title="私人公寓（Private Condominium）">
+        <InfoModule title="私人公寓（Private Condominium）" size="lg">
           <p>
             <strong>特点</strong>：
           </p>
@@ -202,7 +206,7 @@ export default function HousingSlide() {
           </ul>
         </InfoModule>
 
-        <InfoModule title="有地住宅（Landed Property）">
+        <InfoModule title="有地住宅（Landed Property）" size="lg">
           <p>
             <strong>特点</strong>：
           </p>
@@ -276,7 +280,7 @@ export default function HousingSlide() {
           </ul>
         </InfoModule>
 
-        <InfoModule title="特殊房产">
+        <InfoModule title="特殊房产" size="lg">
           <ul>
             <li>
               🔹 <strong>服务式公寓（Serviced Apartment）</strong>
@@ -293,7 +297,7 @@ export default function HousingSlide() {
           </ul>
         </InfoModule>
 
-        <InfoModule title="住房类型比较">
+        <InfoModule title="住房类型比较" size="lg">
           <table>
             <thead>
               <tr>
@@ -355,7 +359,7 @@ export default function HousingSlide() {
           </table>
         </InfoModule>
 
-        <InfoModule title="购房资格">
+        <InfoModule title="购房资格" size="lg">
           <p>
             <strong>新加坡公民（SC）</strong>：
           </p>
@@ -385,7 +389,7 @@ export default function HousingSlide() {
           </ul>
         </InfoModule>
 
-        <InfoModule title="额外买家印花税（ABSD）">
+        <InfoModule title="额外买家印花税（ABSD）" size="lg">
           <p>
             额外买家印花税（ABSD）是购房时需要缴纳的额外税费，不同身份的税率不同：
           </p>
@@ -448,7 +452,7 @@ export default function HousingSlide() {
           </ul>
         </InfoModule>
 
-        <InfoModule title="贷款政策（LTV - Loan-to-Value）">
+        <InfoModule title="贷款政策（LTV - Loan-to-Value）" size="lg">
           <p>贷款成数（LTV）决定了你可以借多少钱：</p>
           <table>
             <thead>
@@ -500,7 +504,7 @@ export default function HousingSlide() {
           </ul>
         </InfoModule>
 
-        <InfoModule title="房产持有税（BSD & Property Tax）">
+        <InfoModule title="房产持有税（BSD & Property Tax）" size="lg">
           <p>所有购房者都需要缴纳买方印花税（BSD），此外每年还需缴纳房产税。</p>
           <p>
             ✅ <strong>买方印花税（BSD）</strong>（适用于所有人）

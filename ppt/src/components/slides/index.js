@@ -13,3 +13,4 @@ export { default as SurveyResultsQuestionsSlide } from "./SurveyResultsQuestions
 export { default as TableOfContentsSlide } from "./TableOfContentsSlide";
 export { default as IdentityStatusSlide } from "./IdentityStatusSlide";
 export { default as TitleSlide } from "./TitleSlide";
+export { default as HousingRentalSlide } from "./HousingRentalSlide";
